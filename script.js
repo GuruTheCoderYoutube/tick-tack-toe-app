@@ -18,17 +18,20 @@ let chance;
 function checkIfWon() {
     let elems = [];
     if (addAndCheck(elems, row1)) {
+        document.querySelector('.thereIsAWinner').innerText = "Letzz gooo! There's a winner!!!"
         return true;
     }
 
     elems = [];
 
     if (addAndCheck(elems, row2)) {
+        document.querySelector('.thereIsAWinner').innerText = "Letzz gooo! There's a winner!!!"
         return true;
     }
 
     elems = [];
     if (addAndCheck(elems, row3)) {
+        document.querySelector('.thereIsAWinner').innerText = "Letzz gooo! There's a winner!!!"
         return true;
     }
 
